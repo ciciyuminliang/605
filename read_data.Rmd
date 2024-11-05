@@ -1,0 +1,22 @@
+---
+title: "read_data"
+author: "Ruijing Chen"
+date: "2024-11-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+weather_0509 <- read.csv("/Users/ruijingchen/Desktop/605/project/data/2005-2009.csv")
+#weather_1014 <- read.csv("/Users/ruijingchen/Desktop/605/project/data/2010-2014.csv")
+#weather_1519 <- read.csv("/Users/ruijingchen/Desktop/605/project/data/2015-2019.csv")
+#weather_2024 <- read.csv("/Users/ruijingchen/Desktop/605/project/data/2020-2024.csv")
+```
+
+```{r}
+weather_0509
+```
+
